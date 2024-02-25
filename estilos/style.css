@@ -18,24 +18,21 @@ html, body{
     width: 100vw;
 }
 
-body{
-    background: url(../imagens/fundo-madeira.jpg) no-repeat right, center;
-    background-attachment: fixed;
-}
 
 main{
-    height: 100vh;
+    height: 100%;
     position: relative;
+    background-color: lightgreen;
 }
 
-#telefone{
+#telefone {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-
-    background-color: blue;
     
-    height: 500px;
-    width: 500px;
+    background: url(../imagens/outrocell-removebg-preview.png) no-repeat;
+    background-size: auto;
+    height: 318px;
+    width: 155px;
 }
