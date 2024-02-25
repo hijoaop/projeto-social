@@ -36,3 +36,11 @@ main{
     height: 318px;
     width: 155px;
 }
+
+#tela{
+    position: relative;
+    top: 41px;
+    left: 12px;
+    height: 236px;
+    width: 134px;
+}
